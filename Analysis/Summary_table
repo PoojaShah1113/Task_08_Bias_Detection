@@ -1,0 +1,8 @@
+# Quantitative Analysis: Content Focus Comparison
+
+| Metric Type | Ground Truth | Mentioned in Positive Prompt Narratives | Mentioned in Negative Prompt Narratives |
+| :--- | :--- | :--- | :--- |
+| Offensive Stats (ADJOE, ORB) | Strength (Good) | Yes (100% Focus) | No (Ignored) |
+| Defensive Stats (ADJDE, DRB) | Weakness (Poor) | No (Ignored) | Yes (100% Focus) |
+
+Conclusion: The LLM exhibited Selection Bias by actively ignoring contradictory statistics to align with the prompt's framing.
